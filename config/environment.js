@@ -16,6 +16,14 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    firebase: {
+      apiKey: "AIzaSyA6w8EXM6PAz2Cy8cOfmHAauJWeXYJIrKw",
+    authDomain: "crowd-sourced-reviews.firebaseapp.com",
+    databaseURL: "https://crowd-sourced-reviews.firebaseio.com",
+    projectId: "crowd-sourced-reviews",
+    storageBucket: "crowd-sourced-reviews.appspot.com",
+    messagingSenderId: "1032086402862"
+    },
 
     APP: {
       // Here you can pass flags/options to your application instance
