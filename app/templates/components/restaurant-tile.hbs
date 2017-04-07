@@ -1,0 +1,13 @@
+<li>
+
+  {{#link-to 'restaurant' restaurant.id}}<button class="btn"></button> {{/link-to}}
+	{{restaurant.image}}<br>
+	<h3>{{restaurant.name}}</h3> <em>{{restaurant.city}}</em> in {{restaurant.type}}
+  <label><b>Location:</b></label>{{restaurant.city}}<br>
+  {{#if isDescriptionShowing}}
+    <p>Description</p>
+    {{else}}
+    <button{{action 'showImage'}}>View details »</button>
+
+  {{/if}}
+</li>
