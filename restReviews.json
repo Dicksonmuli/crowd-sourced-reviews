@@ -1,0 +1,15 @@
+{
+	"renstaurants": [{
+		"name":"ahash",
+		"city":"ahash",
+		"type":"ahash",
+		"image":"ahash",
+		"latitude":"0",
+		"longitude":"0"
+		}],
+		"reviews": [{
+			"author":"ahash",
+			"rating":"ahash",
+			"content":"ahash"
+			}]
+}
