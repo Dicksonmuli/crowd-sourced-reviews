@@ -59,8 +59,12 @@ footer {
 }
 
 /* Make the image fit the box */
-#boxshadow .image {
+#boxshadow img {
     width: 100%;
     border: 1px solid #8a4419;
     border-style: inset;
+}
+/*lists- no decoration*/
+ul, ol{
+  list-style-type: none;
 }
