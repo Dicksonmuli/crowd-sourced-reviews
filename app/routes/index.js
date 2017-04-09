@@ -7,6 +7,5 @@ export default Ember.Route.extend({
 			restaurants: this.store.findAll('restaurant'),
 			reviews: this.store.findAll('review')
 		});
-		return $.getJSON('http://jsbin.com/igosav/1');
 	}
 });
